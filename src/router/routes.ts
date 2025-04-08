@@ -1,4 +1,10 @@
 import type { RouteRecordRaw } from "vue-router";
+import IndexPage from "src/pages/IndexPage.vue";
+import PlacesAndDrive from "pages/PlacesAndDrive.vue";
+import ErrorNotFound from "src/pages/ErrorNotFound.vue";
+import WhatGifts from "src/pages/WhatGifts.vue";
+import JakSpimy from "src/pages/JakSpimy.vue";
+import HarmonogramWesels from "src/pages/HarmonogramWesels.vue";
 
 const routes: RouteRecordRaw[] = [
   {
@@ -6,11 +12,22 @@ const routes: RouteRecordRaw[] = [
     name: "home",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: "/", component: () => import("pages/IndexPage.vue") },
+      { path: "/", component: IndexPage },
       {
         path: "dojazd",
-        name: "dojazd",
-        component: () => import("pages/PlacesAndDrive.vue"),
+        component: PlacesAndDrive,
+      },
+      {
+        path: "harmonogram",
+        component: HarmonogramWesels,
+      },
+      {
+        path: "prezenty",
+        component: WhatGifts,
+      },
+      {
+        path: "nocleg",
+        component: JakSpimy,
       },
     ],
   },
@@ -18,7 +35,7 @@ const routes: RouteRecordRaw[] = [
   // but you can also remove it
   {
     path: "/:catchAll(.*)*",
-    component: () => import("pages/ErrorNotFound.vue"),
+    component: ErrorNotFound,
   },
 ];
 

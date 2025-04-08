@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar class="bg-white">
+      <q-toolbar class="bg-white relative-position">
         <q-btn
           v-if="drawerShouldBeVisible"
           flat
@@ -12,7 +12,7 @@
           text-color="green-10"
           @click="toggleLeftDrawer"
         />
-        <div class="top-buttons">
+        <div class="top-buttons absolute-center">
           <q-btn
             v-for="link in linksList"
             no-caps
@@ -21,6 +21,9 @@
             @click="$router.push(link.url)"
             >{{ link.title }}</q-btn
           >
+        </div>
+        <div class="text-green-10 text-h4 q-ml-auto cool-font q-pt-sm">
+          Marcela i Paweł 
         </div>
       </q-toolbar>
     </q-header>
@@ -37,6 +40,7 @@
           v-for="link in linksList"
           :key="link.title"
           v-bind="link"
+          :link="link.url"
           @click="$router.push(link.url)"
         />
       </q-list>
@@ -45,13 +49,13 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <div class="bg-grey-8 text-white footer row">
+    <div class="bg-grey-8 text-white footer row q-px-sm ">
       <div class="col-6 text-center self-center">
         <div class="q-mb-sm">Zerknij na:</div>
         <q-btn color="primary">Wydarzenie na facebook'u</q-btn>
       </div>
       <div class="col-6 text-center self-center">
-        <div>W razie jakichkolwiek pytań prosimy dzwonić:</div>
+        <div>W razie jakichkolwiek pytań, prosimy dzwonić:</div>
         <div>Marcela: 665 101 802</div>
         <div>Paweł: 694 363 476</div>
       </div>
@@ -71,18 +75,31 @@ const linksList: EssentialLinkProps[] = [
     title: "Wesele",
     caption: "Informacje ogólne",
     icon: "favorite",
-    url: '/'
+    url: "/",
   },
   {
     title: "Miejsca i dojazd",
     caption: "Linki do map",
     icon: "map",
-    url: '/dojazd'
+    url: "/dojazd",
   },
   {
     title: "Prezenty",
-    caption: "chat.quasar.dev",
+    caption: "Co Ci młodzi chcą?",
     icon: "question_mark",
+    url: "/prezenty",
+  },
+  {
+    title: "Informacje noclegowe",
+    caption: "",
+    icon: "bed",
+    url: "/nocleg",
+  },
+  {
+    title: "Harmonogram wesela",
+    caption: "Co i kiedy",
+    icon: "event_note",
+    url: "/harmonogram",
   },
 ];
 

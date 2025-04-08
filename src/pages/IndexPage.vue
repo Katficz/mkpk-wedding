@@ -1,22 +1,22 @@
 <template>
   <q-page class="q-pa-none">
-    <div class="countdown-container flex column text-center cool-font">
-      <h2 class="text-grey-9 mego-font">
+    <div class="countdown-container flex column text-center cool-font justify-center">
+      <div class="text-grey-9 text-h3 mego-font self-center">
         Do najpiękniejszego dnia w naszym życiu zostało:
-      </h2>
+      </div>
 
-      <div class="countdown-clock text-h1 text-weight-bold q-my-lg">
+      <div class="countdown-clock text-h3 text-weight-bold q-mt-lg q-px-xs self-center">
         {{ timeLeft.days }}d: {{ timeLeft.hours }}h: {{ timeLeft.minutes }}m:
         {{ timeLeft.seconds }}s
       </div>
     </div>
-    <div class="row">
+    <div class="row bottom-separator">
       <div class="col-md-6 col-12">
         <q-img src="~assets/wschod_slonca.jpg" />
       </div>
-      <div class="col-md-6 col-12 text-center q-pa-md self-center">
+      <div class="col-md-6 col-12 text-center q-pa-md self-center ">
         <div class="text-h4 q-mb-md cool-font">
-          Nie możemy się razem pobawimy!
+          Nie możemy się doczekać aż się razem pobawimy!
         </div>
         <div class="text-h5 cool-font">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel rem
@@ -28,10 +28,7 @@
     </div>
     <div class="row">
       <div class="col-md-6 col-12 text-center q-pa-md self-center">
-        <div class="text-h4 q-mb-md cool-font">
-          Nasze zdrowie!
-        </div>
-
+        <div class="text-h4 q-mb-md cool-font">Nasze zdrowie!</div>
       </div>
       <div class="col-md-6 col-12">
         <q-img src="~assets/drink.jpg" />
@@ -94,15 +91,24 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
+@media screen and (max-width: 1023px) {
+  .zdrowie-row {
+    flex-direction: column-reverse;
+  }
+}
+.bottom-separator {
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .countdown-container {
   background: linear-gradient(#1b5e1f50, #ffffff);
   width: 100%;
-  height: 500px;
-  padding: 2rem;
+  height: 400px;
+  padding: 2px
 }
+
 
 .countdown-clock {
   font-family: "Courier New", monospace;
-  letter-spacing: 4px;
 }
 </style>
