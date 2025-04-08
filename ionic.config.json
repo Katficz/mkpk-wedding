@@ -1,7 +1,0 @@
-{
-  "name": "mkpk-wedding",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue-vite"
-}
