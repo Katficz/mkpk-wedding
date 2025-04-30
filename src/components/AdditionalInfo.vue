@@ -4,7 +4,7 @@
             To jeszcze nie koniec!
         </div>
         <div class="text-h5 little-gray-text">
-            W poniedziałek pojawią się tutaj informacje o tym, gdzie będziecie siedzieć i troszkę o atrakcjach weselnych! 
+            W poniedziałek pojawią się tutaj informacje o rozmieszczeniu gości na sali weselnej, menu oraz harmonogram wesela.
         </div>
     </div>
 </template>

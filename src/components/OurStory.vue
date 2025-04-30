@@ -12,18 +12,11 @@
         />
       </div>
       <div class="text-h4 q-mb-md">Nasza historia</div>
-      <div class="text-h6 q-mb-md q-pa-xl little-gray-text">
-          Znamy się od 2012 roku, kiedy to trafiliśmy do tej samej klasy w naszym
-          pięknym Dębnowskim gimnacjum. Byliśmy dobrymi znajomymi, którzy zawsze
-          czuli się przy sobie swobodnie, aczkolwiek nic między nami wtedy nie
-          zaiskrzyło. Lata widywaliśmy się razem w szkole, na różnych imprezach,
-          czy to na zajęciach sportowych. Zawsze potrafiliśmy się dogadać i czuć było, że może coś wisi w powietrzu.
-          Dopiero po pierwszym roku studiów jakoś tak wyszło, że zaczęliśmy ze soba coraz to częściej rozmawiać, aż w końcu poszliśmy na pierwsza randkę.
-          I tak od 2017 roku jesteśmy razem, co doprowadziło do tego, że w końcu postanowiliśmy się pobrać.
-        </div>
-        <div class="text-h5 q-mb-md q-pa-md">
-            Nasze zdrowie!
-        </div>
+      <div class="text-h6 q-mb-md q-pa-sm little-gray-text">
+        <Roadmap :items="roadmapItems" />
+
+        <div class="text-h5 q-mb-md q-pa-md">Nasze zdrowie!</div>
+      </div>
     </div>
     <div class="col-md-6 col-12">
       <q-img src="~assets/drink.jpg" />
@@ -31,6 +24,14 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Roadmap from "./Roadmap.vue";
+const roadmapItems = [
+  { label: "Pierwsze spotkanie", date: "01.09.2012" },
+  { label: "Pierwsza randka", date: "03.06.2018" },
+  { label: "Zaręczyny", date: "11.11.2023" },
+  { label: "Ślub", date: "09.05.2025" },
+];
+</script>
 
 <style scoped></style>

@@ -2,8 +2,9 @@
   <div class="hero-container">
     <div class="text-content q-pa-md text-white text-center">
       <div class="text-h5 q-mb-sm q-mb-xl">BIERZEMY ŚLUB</div>
-      <div class="text-h2 q-mb-sm q-mb-lg">Marcela & Paweł</div>
-      <div class="text-h5 q-mb-sm q-mb-md">09 Maj 2025</div>
+      <div class="text-h2 q-mb-sm q-mb-lg">
+  Marcela<span class="name-break"><br></span> & Paweł
+</div>      <div class="text-h5 q-mb-sm q-mb-md">09 Maj 2025</div>
       <CountdownTimer />
     </div>
   </div>
@@ -40,5 +41,15 @@ import CountdownTimer from "./CountdownTimer.vue";
 
 .image-full {
   background-image: url("../assets/widok.jpg");
+}
+
+.name-break {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .name-break {
+    display: inline;
+  }
 }
 </style>

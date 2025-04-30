@@ -29,7 +29,7 @@ defineProps({
 }
 .small-card {
   width: 340px;
-  height: 550px;
+  height: 600px;
 }
 .big-card {
   width: 450px;
