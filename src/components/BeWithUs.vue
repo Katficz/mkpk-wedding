@@ -4,7 +4,7 @@
         <img decoding="async" src="https://pokazowastrona.mojewesele.online/wp-content/uploads/2024/01/flower-icon-02-150x150.png" alt="" width="80" height="80" loading="lazy">
     </div>
     <div class="text-h4 q-mb-sm text-center little-gray-text">Bądźdzcie z nami!</div>
-    <p class="text-h6 text-center little-gray-text">Z radością zapraszamy na naszą uroczystość! <br><strong>Data</strong>: 09 maj 2025<br> <strong>Godzina</strong>: 15:30 <br><strong>Miejsce</strong>: Kościół pw Św Apostołów Piotra i Pawła w Dębnie<br><br>Chcemy, abyście byli z nami w ten wyjątkowy dzień.<br>Z miłością,</p>
+    <p class="text-h6 text-center little-gray-text">Z radością zapraszamy na naszą uroczystość! <br><strong>Data</strong>: 09 maj 2025<br> <strong>Godzina</strong>: 15:30 <br><strong>Miejsce</strong>: Kościół pw Św Apostołów Piotra i Pawła w Dębnie<br><br>Chcemy, abyście byli z nami w ten wyjątkowy dzień.</p>
     <div class="text-h3 little-gray-text text-center q-mt-md q-mb-sm super-font">
         Marcela & Paweł
     </div>

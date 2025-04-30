@@ -33,6 +33,6 @@ defineProps({
 }
 .big-card {
   width: 450px;
-  height: 650px;
+  height: 680px;
 }
 </style>

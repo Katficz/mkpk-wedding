@@ -15,7 +15,7 @@
       <div class="text-h6 q-mb-md q-pa-sm little-gray-text">
         <Roadmap :items="roadmapItems" />
 
-        <div class="text-h5 q-mb-md q-pa-md">Nasze zdrowie!</div>
+        <div class="text-h5 q-mb-md q-pa-md">Wasze zdrówko!</div>
       </div>
     </div>
     <div class="col-md-6 col-12">

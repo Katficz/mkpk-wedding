@@ -9,8 +9,7 @@
           Zakwaterowanie
         </div>
         <div class="text-h6 q-mb-sm q-mt-xl little-gray-text">
-          Pokoje będą dostępne od godziny 13:00 w dniu Ślubu do 14:00 następnego
-          dnia.
+          Pokoje będą dostępne od godziny 13:00.
         </div>
       </div>
     </CardWrapper>
@@ -50,9 +49,9 @@
         <div class="text-h6 q-mb-sm q-mt-sm little-gray-text">
           Wasza obecność w tym wyjątkowym dla nas dniu będzie największym
           prezentem. Jeśli jednak chcielibyście obdarować nas czymś więcej,
-          prosimy zamiast kwiatów o kupony do sklepu <b>Leroy Merlin</b> - pomożecie
-          nam tym samym urządzić wspólny dom. Zamiast klasycznych upominków
-          ucieszy nas też <b>koperta z wkładem do przyszłości</b>.
+          prosimy zamiast kwiatów o <b> bony do Leroy Merlin</b> - pomożecie
+          nam tym samym urządzić wspólny dom. <br/> Zamiast klasycznych upominków
+          ucieszy nas też <b>koperta</b>.
         </div>
       </div>
     </CardWrapper>

@@ -13,7 +13,7 @@
           />
         </div>
         <div class="text-h5 q-mb-sm q-mt-sm little-gray-text">
-          Miejsce ceremonii
+          <b>Miejsce ceremonii</b>
         </div>
         <div class="text-h5 q-mb-sm q-mt-sm little-gray-text">
           Kościół Rzymskokatolicki pw. św. Ap. Piotra i Pawła
@@ -55,10 +55,10 @@
           />
         </div>
         <div class="text-h5 q-mb-sm q-mt-sm little-gray-text">
-          A bawić się będziemy tutaj!
+          A bawić będziemy się tutaj!
         </div>
         <div class="text-h5 q-mb-sm q-mt-sm little-gray-text">
-          Ranczo Radzicz
+          <b>Ranczo Radzicz</b>
         </div>
         <div class="text-h6 q-mb-sm q-mt-sm little-gray-text">
           Radzicz 2a, 74-311 Różańsko

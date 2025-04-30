@@ -27,7 +27,7 @@
           style="width: 20px; position: relative"
         >
           <div style="z-index: 1">
-            <q-icon name="circle" size="12px" color="primary" />
+            <q-icon name="circle" size="12px" class="icon-color" />
           </div>
           <div
             v-if="index < items.length - 1"
@@ -61,3 +61,9 @@ defineProps({
   },
 });
 </script>
+
+<style scoped>
+.icon-color {
+  color: #c78665;
+}
+</style>
